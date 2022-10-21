@@ -1,12 +1,10 @@
 .homewrapper {
-  background: linear-gradient(
-    0.21deg,
-    #d9d9d9 0.1%,
-    rgba(255, 255, 255, 0) 67.35%
-  ), url('../../assets/homebg.svg');
+  background: url('../../assets/homebg.svg');
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  height: 100%;
+  overflow: hidden;
 
   .titleimg {
     left: 0;
@@ -101,8 +99,11 @@
 
   .phone {
     // width: 500px;
-    height: 40vh;
+    // height: 500px;
+    height: 468px;
     z-index: -1;
+
+
   }
 
   .cloud1 {
@@ -111,14 +112,128 @@
   }
 
   .cloud2 {
-    left: 500px;
+    left: 700px;
     position: absolute;
     bottom: 0px;
+    scale: 1.3;
   }
 
   .cloud3 {
     right: 0;
     position: absolute;
     bottom: 0px;
+    scale: 1.3;
   }
+}
+
+.imgwrapper {
+  position: relative;
+  top: -144px;
+
+  
+}
+
+.cone {
+  // top: -240px;
+  // left: -130px;
+  position: relative;
+  filter: drop-shadow(0px 6px 44px rgba(0, 0, 0, 0.25));
+}
+
+.comingsoon {
+  filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.25));
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .phone {
+      position: relative;
+  z-index: 2 !important;
+  }
+
+  .window {
+    // width: 100%;
+  }
+
+}
+
+.mobileimgs {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .imgwrapper {
+    position: absolute;
+    top: 0!important;
+    right: 50px !important;
+  }
+
+  .comingsoon {
+    height: 150px;
+  }
+
+
+  .conewrapper {
+    display: none !important;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .hometitle {
+   font-size: 26px !important;
+  }
+
+  .mobileimgs {
+        display: flex !important;
+    position: relative;
+    justify-content: end;
+  }
+
+  .homedesc {
+    font-size: 12px !important;
+  }
+
+  .homewrapper {
+    background-position: 27px -153px !important;
+    background-size: cover !important;
+  }
+
+
+  .imgcone {
+    height: 70px;
+    position: relative;
+    right: -118px;
+    scale: 1.5;
+    top: 61px;
+  }
+
+  .imgwindow {
+    height: 110px;
+    scale: 1.4;
+    position: relative;
+    right: -136px;
+    top: 15px;
+  }
+
+  .imgcloud {
+    width: 194px;
+    height: 73px;
+    position: relative;
+    top: 55px;
+    scale: 1.2;
+    right: -14px;
+
+  }
+  .phone {
+    scale: 0.9;
+    top: -32px;
+    position: relative;
+    right: 80px;
+    z-index: 0 !important;
+  }
+
 }
