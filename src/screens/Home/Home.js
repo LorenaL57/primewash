@@ -18,6 +18,7 @@ const Home = () => {
 
       <div className="position-relative">
         <div className="container-lg">
+            <div className="row align-items-center m-0 justify-content-between">
           <div className="col-6 position-relative">
             <div>
               <img
@@ -67,16 +68,13 @@ const Home = () => {
             <div>
               <img src={phone} alt="" className="phone" />
             </div>
-            <div className="col-5 position-relative">
-              <img />
-            </div>{" "}
           </div>
-          <div>
+          <div className="col-5 position-relative">
             <img src={comingsoon} alt="" className="" />
             <img src={window} alt="" className="" />
             <img src={cone} alt="" className="" />
             <img src={cone} alt="" className="" />
-          </div>
+          </div></div>
         </div>
         <img src={cloud1} alt="" className="cloud1" />
         <img src={cloud2} alt="" className="cloud2" />
