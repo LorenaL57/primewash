@@ -1,0 +1,124 @@
+.homewrapper {
+  background: linear-gradient(
+    0.21deg,
+    #d9d9d9 0.1%,
+    rgba(255, 255, 255, 0) 67.35%
+  ), url('../../assets/homebg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
+  .titleimg {
+    left: 0;
+    z-index: -1;
+    top: -21px;
+  }
+
+  .hometitle {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #000000;
+  }
+
+  .homedesc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #444444;
+  }
+
+  .blackbgwrapper {
+    background: linear-gradient(91.23deg, #0c0c0c 7.64%, #414141 93.6%);
+    border: 2px dashed #fdba4f;
+    border-radius: 6px;
+    padding: 10px;
+    width: fit-content;
+
+    .blackbgItem {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #fdba4f;
+    }
+
+    td:first-child {
+      padding-right: 10px;
+      border-right: 1px solid #d9d9d9;
+    }
+
+    td:nth-child(2) {
+      padding-left: 10px;
+      border-right: 1px solid #d9d9d9;
+      padding-right: 10px;
+    }
+
+    td:nth-child(3) {
+      padding-left: 10px;
+    }
+  }
+
+  .cardwrapper {
+    background: linear-gradient(
+      180deg,
+      rgba(235, 194, 89, 0.3) 0%,
+      rgba(235, 194, 89, 0) 100%
+    );
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #444444;
+    }
+
+    .mapbtn {
+        box-shadow: 20px 10px 30px rgba(222, 164, 70, 0.6);
+      background: linear-gradient(288.94deg, #D49D44 28.63%, #FDBA4F 54.35%);
+      padding: 10px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff;
+      transition: all 0.25s;
+      transform: skewX(-10deg);
+    }
+
+
+
+    .mapbtn:hover {
+      transform: translateX(11px) translateY(14px);
+    }
+  }
+
+  .phone {
+    // width: 500px;
+    height: 40vh;
+    z-index: -1;
+  }
+
+  .cloud1 {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .cloud2 {
+    left: 500px;
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .cloud3 {
+    right: 0;
+    position: absolute;
+    bottom: 0px;
+  }
+}
