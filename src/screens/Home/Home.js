@@ -21,7 +21,7 @@ const Home = () => {
     <div className="container-fluid homewrapper pt-0 pl-0 pr-0 position-relative">
       <div className="position-relative">
         <Header />
-        <div className="container-lg">
+        <div className="container-lg position-relative containerwrapper">
           <div className="row m-0 justify-content-start justify-content-lg-between justify-content-xl-between gap-lg-3 gap-xl-3">
             <div className="col-12 col-lg-5 col-xl-5 col-md-6">
               <div>

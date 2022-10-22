@@ -128,7 +128,7 @@
 
 .imgwrapper {
   position: relative;
-  top: -144px;
+  top: -158px;
 
   
 }
@@ -165,12 +165,15 @@
 @media only screen and (max-width: 768px) {
   .imgwrapper {
     position: absolute;
-    top: 0!important;
+    top:  -147px !important;
     right: 50px !important;
   }
 
   .comingsoon {
     height: 150px;
+    position: relative;
+    top: 0px;
+
   }
 
 
@@ -202,6 +205,12 @@
     background-size: cover !important;
   }
 
+  .imgwrapper {
+    position: absolute;
+    top:  -130px !important;
+    right: 50px !important;
+  }
+
 
   .imgcone {
     height: 70px;
@@ -223,7 +232,7 @@
     width: 194px;
     height: 73px;
     position: relative;
-    top: 55px;
+    top: 70px;
     scale: 1.2;
     right: -14px;
 
@@ -236,4 +245,15 @@
     z-index: 0 !important;
   }
 
+  .cloud3 { 
+    scale: 1 !important;
+    bottom: -70px !important;
+
+  }
+
+}
+
+.containerwrapper {
+  top: 67px;
+    padding-top: 12px;
 }
