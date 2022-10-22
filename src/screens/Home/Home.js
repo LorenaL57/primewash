@@ -60,7 +60,7 @@ const Home = () => {
                   <b>Locatia este:</b>
                 </p>
                 <p>
-                  Locatia este: Parcarea Carrefour Colentina - Șoseaua Colentina
+                  Parcarea Carrefour Colentina - Șoseaua Colentina
                   426-426A, Bucureșt
                 </p>
                 <p>
